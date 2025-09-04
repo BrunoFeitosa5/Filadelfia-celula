@@ -208,7 +208,7 @@ function App() {
                 className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-lg font-semibold">Comunhão Fraternal</p>
+                <p className="text-white text-lg font-semibold">Comunhão entre irmãos</p>
               </div>
             </div>
 
@@ -226,18 +226,18 @@ function App() {
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
               <img 
                 src="/images/1.jpeg" 
-                alt="Jovens em oração"
+                alt="Momento em cristo"
                 className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <p className="text-white text-lg font-semibold">Momento em Cristo</p>
+                <p className="text-white text-lg font-semibold">Momento em cristo</p>
               </div>
             </div>
 
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
               <img 
                 src="images/comunh.jpeg" 
-                alt="Família cristã"
+                alt="Comunhão"
                 className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
