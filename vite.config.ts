@@ -1,7 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: '/C-lulaFilad-lfia/', // 👈 nome do repositório
-})
+  base: mode === 'production'
+    ? '/Filadelfia-celula/' // GitHub Pages
+    : '/',                  // Netlify e dev
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+}))
