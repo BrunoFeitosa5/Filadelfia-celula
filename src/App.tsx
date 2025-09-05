@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu, X, Heart, Users, Phone, Mail, MapPin, Star, MessageCircle } from 'lucide-react';
 
 // Importando imagens da pasta public/images

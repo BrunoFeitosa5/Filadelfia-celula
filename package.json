@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://brunofeitosa5.github.io/C-lulaFilad-lfia/",
+  "homepage": "https://BrunoFeitosa5.github.io/celula-filadelfia",
   "dependencies": {
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
